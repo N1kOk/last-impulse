@@ -8,4 +8,5 @@ Updates are uploaded manually; there is no connection to the development reposit
 
 The game and original assets are not licensed for redistribution by this repository.
 Phaser is distributed under the MIT license in LICENSE-phaser.txt.
+EventEmitter3 is distributed under the MIT license in LICENSE-eventemitter3.txt.
 Third-party font and sound licenses are included alongside their assets.
