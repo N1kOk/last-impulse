@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Last Impulse — минималистичная арена с управлением жестами и автоматическим огнём."
+    />
+    <meta name="theme-color" content="#f1f3ee" />
+    <title>Last Impulse</title>
+    <script type="module" crossorigin src="./assets/index-B6M62t2k.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Di6nGncE.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#game-ui">К управлению игрой</a>
+
+    <main id="app" class="game-shell">
+      <section class="game-chamber" aria-label="Игровая камера Last Impulse">
+        <div
+          id="game-root"
+          class="game-canvas"
+          role="application"
+          aria-label="Игровое поле. Двигайтесь жестами мыши или касанием; атаки выбирают цель автоматически."
+        ></div>
+
+        <div id="game-ui" class="game-ui" tabindex="-1" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <noscript>
+      <p class="noscript-message">
+        Для запуска Last Impulse нужен JavaScript. Включите его и перезагрузите страницу.
+        <br />
+        Last Impulse requires JavaScript. Enable it and reload the page.
+      </p>
+    </noscript>
+
+  </body>
+</html>
